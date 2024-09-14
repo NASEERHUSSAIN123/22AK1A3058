@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Program8 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter an integer: ");
-        int num = scanner.nextInt();
+        int num = sc.nextInt();
 
         int position = isFibonacci(num);
         if (position != -1) {
